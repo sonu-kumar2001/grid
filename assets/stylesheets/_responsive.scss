@@ -1,0 +1,130 @@
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .span1 {
+        grid-column: span 1;
+    }
+    /* hamburger-menu */
+    .nav {
+        display: none;
+        background-color: #000000;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        padding-top: 120px;
+    }
+    .logo {
+        position: relative;
+        z-index: 1;
+    }
+    label {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: $orange;
+        font-size: 32px;
+    }
+    .toggle:checked ~ label .fa-bars:before {
+        content: "\f00d";
+    }
+    .toggle:checked ~ .nav {
+        display: inline-block;
+    }
+    .direction-col {
+        flex-direction: column;
+    }
+    .list-item {
+        margin: 16px 0;
+        a {
+            font-size: 2rem;
+        }
+    }
+
+    .header {
+        position: static;
+        padding: 1rem;
+        .logo h2 {
+            text-shadow: none;
+        }
+    }
+
+    .padding {
+        padding: 2rem;
+    }
+    .m-t {
+        margin-top: -2px;
+    }
+}
+// ipad pro 
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .span1 {
+        grid-column: span 1;
+    }
+    /* hamburger-menu */
+    .nav {
+        display: none;
+        background-color: #000000;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        padding-top: 120px;
+    }
+    .logo {
+        position: relative;
+        z-index: 1;
+    }
+    label {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: $orange;
+        font-size: 32px;
+    }
+    .toggle:checked ~ label .fa-bars:before {
+        content: "\f00d";
+    }
+    .toggle:checked ~ .nav {
+        display: inline-block;
+    }
+    .direction-col {
+        flex-direction: column;
+    }
+    .list-item {
+        margin: 16px 0;
+        a {
+            font-size: 2rem;
+        }
+    }
+
+    .header {
+        position: static;
+        padding: 3rem;
+        .logo h2 {
+            text-shadow: none;
+        }
+    }
+
+    .padding-tab {
+        padding: 4rem 5rem;
+    }
+    .padding-top {
+        padding: 3rem 0;
+    }
+    .m-t {
+        margin-top: -2px;
+    }
+}

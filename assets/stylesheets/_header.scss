@@ -6,9 +6,15 @@
     left: 0;
     right: 0;
 }
-.items {
+.toggle {
+    display: none;
+}
+label {
+    display: none;
+}
+.list-item {
     a {
-        margin-left: 20px;
+        margin-left: 1.25rem;
         text-transform: uppercase;
         font-size: 1rem;
         color: #84807e;

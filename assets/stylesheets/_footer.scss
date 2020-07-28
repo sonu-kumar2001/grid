@@ -1,0 +1,16 @@
+.footer {
+    padding: 5rem 0;
+    color: #9a9a9a;
+    small {
+        span {
+            color: $orange;
+        }
+    }
+    .socail-icon {
+        margin: 2rem 0;
+        i {
+            margin-right: 2rem;
+            font-size: 1.5rem;
+        }
+    }
+}

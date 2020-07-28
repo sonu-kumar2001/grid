@@ -1,0 +1,35 @@
+.experience-img {
+    grid-column: span 2;
+}
+.experience-detail {
+    grid-column: span 2;
+    padding: 5rem 3rem 3rem 3rem ;
+    background-color: #fc683e;
+    color: #ffffff;
+    h2 {
+        font-size: 2.2rem;
+    }
+    .head-para {
+        margin: 2rem 0 3rem;
+    }
+    
+    .flex {
+        margin-bottom: 3rem;
+        h3 {
+            font-size: 1.7rem;
+            span {
+                color: #713234;
+                font-size: 1.3rem;
+            }
+        }
+        i {
+            font-size: 2.5rem;
+            margin-right: 2rem;
+        }
+        .details {
+            p {
+                margin-top: 1rem;
+            }
+        }
+    }
+}

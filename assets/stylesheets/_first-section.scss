@@ -1,0 +1,68 @@
+.skill-intro {
+    grid-column: span 2;
+    padding: 2rem;
+    h3 {
+        font-size: 2rem;
+        color: #474747;
+    }
+    .highlight-text {
+        color: #f3cd90;
+        margin: 1rem 0 1.5rem 0;
+    }
+    p {
+        font-size: 1rem;
+        color: #afafaf;
+        line-height: 1.6;
+    }
+}
+.skill-img {
+    img {
+        height: 25rem;
+        object-fit: cover;
+    }
+}
+.skill-intro {
+    align-self: center;
+}
+.skill-detail {
+    background-color: #ecaf4e;
+    padding: 4rem 2.5rem;
+    
+    h3 {
+        font-size: 2rem;
+        color: #ffffff;
+    }
+    p {
+        color: #ffffff;
+    }
+    .para-text {
+        margin: 2rem 0;
+    } 
+    h4 {
+        color: #2b271c;
+        font-weight: 500;
+    }
+    .progress-bar-1 {
+        background-color: #ffffff;
+        width: 100%;
+        height: 3px;
+        border-radius: 4px;
+        margin: .70rem 0;
+        .inner-progress-1 {
+            width: 90%;
+            height: 3px;
+            background-color: #2b271c;
+        }
+        .inner-progress-2 {
+            @extend .inner-progress-1;
+            width: 70%;
+        }
+        .inner-progress-3 {
+            @extend .inner-progress-1;
+            width: 80%;
+        }
+    }
+} 
+.first-section {
+    grid-template-rows: 25rem;
+}

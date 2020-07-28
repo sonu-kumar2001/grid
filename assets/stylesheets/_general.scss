@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
 }
@@ -10,7 +16,13 @@ img {
 p {
     line-height: 1.5;
 }
+.text-center {
+    text-align: center;
+}
 // flex
+.flex {
+    display: flex;
+}
 .flex-between {
     display: flex;
     justify-content: space-between;
@@ -20,7 +32,5 @@ p {
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-    align-items: center;
 }
 
