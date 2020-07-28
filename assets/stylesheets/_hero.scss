@@ -1,0 +1,38 @@
+.hero-img {
+    grid-column: span 2;
+}
+.hero-section {
+     background-color: #f5e3d7;
+}
+.hero-details {
+    grid-column: span 2;
+    padding: 0 2.5rem;
+    align-items: center;
+    .first-para {
+        text-transform: uppercase;
+        color: #bbb5b0;
+    }
+    p {
+        color: #bbb5b0;
+        margin-bottom: 1.5rem;
+    }
+    h1 {
+        color: #6e6965;
+        font-size: 2.5rem;
+        font-weight: 400;
+        margin: 1.5rem 0;
+    }
+    .highlight {
+        color: #505451;
+        font-size: 2.6rem;
+    }
+    a {
+        display: inline-block;
+        padding: 1rem 1.5rem;
+        border-radius: 30px;
+        font-weight: 500;
+        text-transform: uppercase;
+        border: 2px solid #273131;
+        color: #273131;
+    }
+}

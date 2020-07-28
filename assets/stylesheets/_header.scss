@@ -1,7 +1,10 @@
 .header {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 1rem 0 2rem 0;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 .items {
     a {
@@ -11,10 +14,15 @@
         color: #84807e;
     }
 }
+    .active a {
+        color: #edb560;
+    }
+
 .logo {
     h2 {
         color: #3d3c3c;
         font-size: 2rem;
         font-weight: 600;
+        text-shadow: 2px 2px 2px #ffffff;
     }
 }

@@ -72,12 +72,20 @@ h5 {
   font-size: 0.75rem;
 }
 
-html {
-  font-size: 16px;
-}
-
 a {
   text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
 }
 
 .flex-between {
@@ -92,10 +100,26 @@ a {
           align-items: center;
 }
 
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .header {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 1rem 0 2rem 0;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .items a {
@@ -105,9 +129,62 @@ a {
   color: #84807e;
 }
 
+.active a {
+  color: #edb560;
+}
+
 .logo h2 {
   color: #3d3c3c;
   font-size: 2rem;
   font-weight: 600;
+  text-shadow: 2px 2px 2px #ffffff;
+}
+
+.hero-img {
+  grid-column: span 2;
+}
+
+.hero-section {
+  background-color: #f5e3d7;
+}
+
+.hero-details {
+  grid-column: span 2;
+  padding: 0 2.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-details .first-para {
+  text-transform: uppercase;
+  color: #bbb5b0;
+}
+
+.hero-details p {
+  color: #bbb5b0;
+  margin-bottom: 1.5rem;
+}
+
+.hero-details h1 {
+  color: #6e6965;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 1.5rem 0;
+}
+
+.hero-details .highlight {
+  color: #505451;
+  font-size: 2.6rem;
+}
+
+.hero-details a {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 2px solid #273131;
+  color: #273131;
 }
 /*# sourceMappingURL=main.css.map */
