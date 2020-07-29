@@ -8,6 +8,9 @@
     .span1 {
         grid-column: span 1;
     }
+    .span-2 {
+        grid-column: span 1;
+    }
     /* hamburger-menu */
     .nav {
         display: none;
@@ -62,7 +65,7 @@
     }
 }
 // ipad pro 
- @media screen and (min-width: 800px) and (max-width:1024px) {
+ @media screen and (min-width: 768px) and (max-width:1024px) {
     html {
         font-size: 16px;
     }
@@ -70,6 +73,9 @@
         grid-template-columns: 1fr;
     }
     .span1 {
+        grid-column: span 1;
+    }
+    .span-2 {
         grid-column: span 1;
     }
     /* hamburger-menu */

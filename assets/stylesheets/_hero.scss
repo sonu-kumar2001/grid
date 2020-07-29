@@ -1,6 +1,4 @@
-.hero-img {
-    grid-column: span 2;
-}
+
 .hero-section {
      background-color: #f5e3d7;
      grid-template-rows: 37.5rem;
@@ -12,7 +10,6 @@
     }
 }
 .hero-details {
-    grid-column: span 2;
     padding: 0 2.5rem;
     align-self: center;
     .first-para {
